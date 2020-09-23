@@ -14,12 +14,11 @@ DEVICE_TYPE?=router
 
 # Default packages - the really basic set
 DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
-block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
-default-settings luci luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-webadmin \
-luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-unblockmusic \
-luci-app-arpbind luci-app-vlmcsd luci-app-wol luci-app-ramfree \
-luci-app-sfe luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
-ddns-scripts_aliyun ddns-scripts_dnspod
+luci wget default-settings block-mount luci-lib-ipkg luci-theme-material \
+luci-app-autoreboot luci-app-cifs-mount luci-app-nlbwmon luci-app-ssr-plus luci-app-upnp luci-app-vsftpd \
+kmod-usb-core kmod-usb-ohci kmod-usb-uhci kmod-usb-storage kmod-usb-storage-extras kmod-usb2 \
+kmod-scsi-core kmod-fs-cifs kmod-fs-ext4 kmod-fs-ntfs kmod-fs-vfat \
+kmod-nls-cp437 kmod-nls-cp936 kmod-nls-iso8859-1 kmod-nls-utf8 \
 # For the basic set
 DEFAULT_PACKAGES.basic:=
 # For nas targets
